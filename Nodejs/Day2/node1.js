@@ -1,0 +1,7 @@
+let os = require("os");
+let fs = require("fs");
+console.log(os.cpus());
+fs.writeFileSync(
+  "Story.txt",
+  "Once upon a time, a young boy found a small, injured bird in his garden. He carefully brought it inside, made a cozy nest out of an old shoebox, and fed it every day. As the bird grew stronger, the boy realized it was time to let it go. He took the bird back to the garden, opened his hands, and watched as it soared into the sky. Though he was sad to say goodbye, he felt happy knowing he had helped a friend find its wings."
+);
